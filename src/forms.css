@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading{
+    text-align: center;
+    position: relative;
+    top:80px;
+}
+h1{
+    color:#FD3C01;
+    font-weight: bold;
+    
+}
+
+h2{
+    color:#01A185;
+    
+    font-weight: bold; 
+    font-size: 20px;
+}
+
+span{
+    color:#01A185;
+    font-weight: bold;
+}
+.form{
+    display:flex;
+   
+    justify-content: center;
+    border-radius: 20px;
+
+    margin:150px;
+}
+
+input[type="text"]{
+    /* display:block; */
+    width:350px;
+    height:50px;
+    margin:10px;
+   
+}
+input[type="email"]{
+    display:block;
+    width:350px;
+    height:50px;
+    margin:10px;
+}
+input[type="password"]{
+    display:block;
+    width:350px;
+    height:50px;
+    margin:10px;
+}
+input[type="number"]{
+    display:block;
+    width:350px;
+    height:50px;
+    margin:10px;
+}
+
+.reg-btn button{
+background-color:#FD3C01;
+color:#fff;
+text-transform: uppercase;
+border:none;
+border-radius: 4px;
+width:300px;
+height:50px;
+margin:40px;
+cursor:pointer;
+}
+
+
+
+.footer-writeup{
+    display:flex;
+   
+}
+
+
+
+/* Login */
+.login-forms{
+    display:block;
+   
+    justify-content: center;
+    border-radius: 20px;
+
+    margin: 0px 400px; 
+}
+
+.login{
+ justify-content: center;
+ display:block;
+ margin:100px;
+}
+
+.login-h1{
+    text-align: center;
+   text-transform: uppercase;
+   color:#FD3C01;
+   font-weight: bold;
+}
+.login-h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 20px;
+    color:#01A185;
+}
+
+
+
+.foot-text{
+    position: relative;
+    left:60px;
+    margin:0px 3px;
+    font-size: 13px;
+}
+.text-sign{
+    position: relative;
+    left:60px;
+    margin:0px 3px;
+    cursor: pointer;
+    color:#FD3C01;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+
+.show-h1{
+    color:#FD3C01;
+    text-align: center;
+}
+.signin{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.btn button{
+    background-color:#FD3C01;;
+    color:#fff;
+    text-transform: uppercase;
+    border:none;
+    border-radius: 4px;
+    width:300px;
+    height:50px;
+    margin:40px;
+    cursor:pointer;
+}
